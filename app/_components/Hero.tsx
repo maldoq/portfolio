@@ -1,8 +1,5 @@
-import { ComponentPropsWithoutRef } from "react"
 import { Section } from "./Section"
 import {Code} from "./Code"
-import { cn } from "@/lib/utils"
-import { LinkedinIcon } from "./icons/LinkedinIcon"
 
 
 export const Hero = () => {

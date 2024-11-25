@@ -1,9 +1,5 @@
 import { Badge } from "@/components/ui/badge"
 import { Section } from "./Section"
-import { ReactLogo } from "./icons/ReactLogo"
-import { Code } from "./Code"
-import { TailwindLogo } from "./icons/TailwindLogo"
-import { OpenAILogo } from "./icons/OpenAILogo"
 import { ContactCard } from "./ContactCard"
 
 export const Contact = () => {
