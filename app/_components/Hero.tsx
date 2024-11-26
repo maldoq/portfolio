@@ -18,7 +18,7 @@ export const Hero = () => {
                     rel="noopener noreferrer"
                     >
                     <Code className="inline-flex items-center gap-1">
-                        <Image src="https://iit.ci/images/logo-small.jpg#joomlaImage://local-images/logo-small.jpg?width=223&height=80" style={{width: 20, height: "auto"}} alt="IIT" /> Institut Ivoirien de Technologie
+                        <Image src="https://iit.ci/images/logo-small.jpg#joomlaImage://local-images/logo-small.jpg?width=223&height=80" width={25} height={10} alt="IIT" /> Institut Ivoirien de Technologie
                     </Code>
                     </a>, et domicilié à <a
                     href="#"
@@ -26,7 +26,7 @@ export const Hero = () => {
                     rel="noopener noreferrer"
                     >
                     <Code className="inline-flex items-center gap-1">
-                        <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/200px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png" style={{width: 16, height: "auto"}} alt="Côte d'Ivoire" /> Abidjan
+                        <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/200px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png" width={25} height={15} alt="Côte d'Ivoire" /> Abidjan
                     </Code>
                     </a>, 
                 je suis animé par une passion profonde pour les <Code className="inline-flex items-center gap-1">sciences physiques et chimiques</Code>, 
@@ -38,7 +38,7 @@ export const Hero = () => {
                 </p>
             </div>
             <div className="flex-[2] max-md:m-auto ml-auto">
-                <Image src="https://cdn-icons-png.flaticon.com/128/5216/5216408.png" alt="malik's picture" className="w-full h-auto max-w-xs max-md:w-56" />
+                <Image src="https://cdn-icons-png.flaticon.com/128/5216/5216408.png" alt="malik's picture" className="w-full h-auto max-w-xs max-md:w-56" width={128} height={128} />
             </div>
         </Section>
     )

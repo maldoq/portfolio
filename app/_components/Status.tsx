@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card"
 import { Section } from "./Section"
-import { Code, MessageCircle, Rss, StickyNote, Weight} from "lucide-react"
+import { Database, Euro, MessageCircle, Rss, Weight} from "lucide-react"
 import { SideProject, SideProjectProps } from "./SideProject"
 import { ContactCard } from "./ContactCard"
 import { Work, WorkProps } from "./Work"
@@ -29,7 +29,7 @@ export const Status = () => {
             <div className="w-full flex-[2] flex flex-col gap-4">
                 <Card className="p-4 flex-1">
                     <p className="text-lg text-muted-foreground">
-                        Work
+                        Languages appris
                     </p>
                     <div className="flex flex-col gap-4">
                         {WORKS.map((work,index) => (
@@ -42,19 +42,19 @@ export const Status = () => {
                 </Card>
                 <Card className="p-4 flex-1 flex flex-col gap-2">
                     <p className="text-lg text-muted-foreground">
-                        Contact me
+                        Langue parlé
                     </p>
                     <ContactCard 
-                        name="@melvynxdev" 
+                        name="Français" 
                         image="" 
                         mediumImage="" 
-                        description="16000"
+                        description="native"
                     />
                     <ContactCard 
-                        name="Melvin Malherbe" 
+                        name="English" 
                         image="" 
                         mediumImage="" 
-                        description="12000"
+                        description="level A2"
                     />
                 </Card>
             </div>
@@ -65,52 +65,69 @@ export const Status = () => {
 
 const SIDE_PROJECTS : SideProjectProps[] = [
     {
-        Logo: Code,
-        title: 'CodeLines',
-        description: 'A platform for developers to share their knowledge',
+        Logo: Euro,
+        title: 'ProxyGestFin - en cours',
+        description: 'Une application de gestion des factures',
         url:"/",
     },
     {
-        Logo: StickyNote,
-        title: 'PowerNotes',
-        description: 'A platform for developers to share their knowledge',
+        Logo: Database,
+        title: 'Gestion de stock',
+        description: 'Une application de gestion de stock',
         url:"/",
     },
     {
         Logo: Rss,
-        title: 'PowerPost',
-        description: 'A platform for developers to share their knowledge',
+        title: 'Philosshop',
+        description: 'Un site web de vente d\'habit',
         url:"/",
     },
-    {
-        Logo: MessageCircle,
-        title: 'Chat2Code',
-        description: 'A platform for developers to share their knowledge',
-        url:"/",
-    },
-    {
-        Logo: Weight,
-        title: 'LinkedLeads',
-        description: 'A platform for developers to share their knowledge',
-        url:"/",
-    }
 ]
 
 
 const WORKS : WorkProps[] = [
     {
         image: "",
-        title: "Codelynx",
-        role: "Founder",
-        date: "2023 - present",
+        title: "Python",
+        role: "",
+        date: "2018 - present",
         url:"/",
         freelance: true,
     },
     {
         image: "",
-        title: "Yuzu",
-        role: "Software Developer",
-        date: "2022 - 2023",
+        title: "Dart",
+        role: "",
+        date: "2021 - present",
+        url:"/",
+    },
+    {
+        image: "",
+        title: "Html/Css",
+        role: "",
+        date: "2019 - present",
+        url:"/",
+        freelance: true,
+    },
+    {
+        image: "",
+        title: "Javascript",
+        role: "",
+        date: "2021 - present",
+        url:"/",
+    },
+    {
+        image: "",
+        title: "Java",
+        role: "",
+        date: "2022 - present",
+        url:"/",
+    },
+    {
+        image: "",
+        title: "Csharp",
+        role: "",
+        date: "2019 - 2023",
         url:"/",
     }
 ]
