@@ -11,13 +11,6 @@ export const Contact = () => {
         </h2>
         <div className="flex max-md:flex-col gap-4">
         <ContactCard
-            className="flex-1"
-            name="@melvynxdev" 
-            image="" 
-            mediumImage="" 
-            description="16000"
-        />
-        <ContactCard
             className="flex-1" 
             name="Adjémian Malik" 
             image="" 
